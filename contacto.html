@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/patitas-logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Orbitron:wght@900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Patitas</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    
+    
+    <!-- HEADER -->
+
+    <header class="header">
+        <p>20% OFF por transferencia</p>
+    </header>
+      
+    <!-- BARRA DE NAVEGACIÓN -->
+
+      <div class="container_nav_main">
+        <div class="navbar">
+          <i class="bi bi-list"></i>
+          <img src="./img/patitas-logo.png" alt="" />
+          <nav>
+            <ul class="navbar_menu">
+              <li>
+                <a href="./index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="#">Tienda</a>
+              </li>
+              <li>
+                <a href="#">Mascotas</a>
+              </li>
+              <li>
+                <a href="#">Acerca de</a>
+              </li>
+              <li>
+                <a href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+          <div>
+            <i class="bi bi-person-fill"></i>
+          </div>
+        </div>
+        <main class="main">
+            <P>Formulario de contacto</P>
+        </main>
+      </div>
+ 
+
+    <section class="section">
+        <div class="section_left">
+            <img src="./img/camas.png" alt="gato en su cama">
+        </div>
+        <div class="section_right">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mzzpndpv" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Nombre</label>
+              <input type="text" name="Nombre" id="full-name" placeholder="Escribe tu nombre" required="">
+              <label for="email-address">Correo Electrónico</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="tu@email.com" required="">
+              <label for="message">Mensaje</label>
+              <textarea rows="5" name="message" id="message" placeholder="Escribe tu Mensaje" required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input class="form_submit" type="submit" value="Enviar">
+          </form>
+        </div>
+        
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer class="footer_contenedor">
+      <div class="footer_top">
+        <div class="footer_left">
+          <img src="./img/patitas-logo.png" alt="patitas_logo">
+          <img src="./img/logo-patitas-texto.png" alt="patitas_logo_texto">
+        </div>
+        <div class="footer_center">
+          <h4>Contactanos</h4>
+          <p>contacto@patitas.com.ar</p>
+        </div>
+        <div class="footer_right">
+          <h4>Seguinos</h4>
+          <div class="footer_right_icons">
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p>Copyright Patitas 2024</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
